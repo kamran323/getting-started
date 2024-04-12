@@ -6,17 +6,17 @@
  const axios = require('axios');
 
  module.exports = {
-     indexDocument: async function (customer_id, corpus_id, indexing_endpoint, jwt_token) {
+     indexDocument: async function (801548095, Sakhawat Hussain, indexing_endpoint, jwt_token) {
          const data = {
-            'customer_id': customer_id,
-            'corpus_id': corpus_id,
-            'document': {
+            'customer_id': 801548095,
+            'corpus_id': Sakhawat Hussain,
+            'document': {index.js
                 'document_id': 'doc-id-1',
-                'title': 'An example title',
+                'title': 'index_document.js',
                 'metadata_json': JSON.stringify({
-                    "book-name": "An example title",
+                    "book-name": "vectara-employee-handbook",
                     "collection": "Chemistry",
-                    "author": "Example Author"
+                    "author": "Sakhawat"
                 }),
                 'section': [
                     {
@@ -33,7 +33,7 @@
              headers: {
                  'Authorization': `Bearer ${jwt_token}`,
                  'Content-Type': 'application/json',
-                 'customer-id': customer_id.toString()
+                 'customer-id': 801548095.toString()
              }
          };
  
